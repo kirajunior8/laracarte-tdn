@@ -17,8 +17,8 @@
 	<!-- Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-	
-    <title>{{ isset($title) ? $title. ' | ' : ''}} Laracarte liste artisans</title>
+	<title>{{ page_title($title) }}</title>
+    
 
     <style type="text/css">
     	body{
